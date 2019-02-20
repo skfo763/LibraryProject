@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowRdRoomActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_vertical"
+        android:backgroundTint="#9dffa7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/signin_goback"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/signin_title"
+                android:layout_toRightOf="@+id/signin_goback"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="좌석 선택"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <HorizontalScrollView
+        android:layout_below="@id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/rdroom_btn237"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="237"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn238"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="238"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn239"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="239"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn240"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="240"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn241"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="241"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn242"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="242"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn243"
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="243"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn244"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="244"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn245"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="245"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn246"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="246"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn247"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="247"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn248"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="248"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn236"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="236"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn235"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="235"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn234"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="234"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn233"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="233"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn232"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="232"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn231"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="231"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn230"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="230"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn229"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="229"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn228"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="228"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn227"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="227"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn226"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="226"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn225"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="225"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn224"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="224"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn223"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="223"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn222"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="222"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn221"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="221"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/rdroom_btn220"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="220"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn219"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="219"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn218"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="218"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn217"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="217"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn216"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="216"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn215"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="215"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn214"
+                    android:layout_marginLeft="100dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="214"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn213"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="213"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn212"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="212"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn211"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="211"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn210"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="210"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/rdroom_btn209"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/buttonstyle3"
+                    android:text="209"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn195"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="195"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn196"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="196"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn197"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="197"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn198"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="198"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn199"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="199"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn200"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="200"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn201"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="201"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn202"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="202"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn203"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="203"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn204"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="204"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn205"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="205"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn206"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="206"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn207"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="207"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn208"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="208"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn194"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="194"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn193"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="193"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn192"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="192"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn191"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="191"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn190"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="190"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn189"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="189"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn188"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="172"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn187"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="187"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn186"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="186"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn185"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="185"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn184"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="184"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn183"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="183"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn182"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="162"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn181"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="181"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn180"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="180"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn179"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="179"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn178"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="178"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn177"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="177"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn176"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="176"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn175"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="175"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn174"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="174"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn173"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="173"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn172"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="171"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn171"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="171"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn170"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="170"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn169"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="183"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn168"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="162"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn167"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="167"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn166"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="166"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn165"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="165"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn151"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="151"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn152"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="152"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn153"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="153"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn154"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="154"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn155"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="155"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn156"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="156"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn157"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="157"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn158"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="158"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn159"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="159"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn160"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="160"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn161"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="161"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn162"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="162"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn163"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="163"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn164"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="164"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn135"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="135"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn136"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="136"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn137"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="137"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn138"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="138"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn139"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="139"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn140"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="140"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn141"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="141"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn142"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="142"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn143"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="143"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn144"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="144"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn145"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="145"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn146"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="146"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn147"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="147"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn148"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="148"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn149"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="149"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn150"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="150"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn134"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="134"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn133"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="133"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn132"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="132"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn131"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="131"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn130"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="130"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn129"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="129"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn128"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="128"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn127"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="127"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn126"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="126"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn125"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="125"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn124"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="124"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn123"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="123"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn122"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="122"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn121"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="121"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn109"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="109"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn110"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="110"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn111"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="111"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn112"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="112"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn113"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="113"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn114"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="114"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn115"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="115"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn116"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="116"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn117"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="117"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn118"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="118"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn119"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="119"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn120"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="120"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn108"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="108"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn107"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="107"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn106"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="106"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn105"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="105"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn104"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="104"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn103"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="103"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn102"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="102"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn101"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="101"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn100"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="100"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn99"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="99"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn98"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="198"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn97"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="97"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn96"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="96"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn95"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="95"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn94"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="94"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn93"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="93"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn92"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="92"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn91"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="91"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn90"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="90"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn89"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="89"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn88"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="88"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn87"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="87"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn86"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="86"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn85"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="85"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn84"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="84"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn83"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="83"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn82"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="82"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn81"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="81"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn67"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="67"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn68"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="68"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn69"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="69"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn70"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="70"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn71"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="71"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn72"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="72"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn73"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="73"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn74"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="74"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn75"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="75"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn76"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="76"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn77"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="77"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn78"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="78"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn79"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="79"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn80"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="80"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn66"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="66"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn65"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="65"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn64"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="64"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn63"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="63"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn62"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="62"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn61"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="61"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn60"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="60"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn59"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="59"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn58"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="58"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn57"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="57"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn56"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="56"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn55"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="55"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn54"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="54"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn53"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="53"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn39"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="39"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn40"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="40"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn41"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="41"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn42"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="42"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn43"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="43"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn44"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="44"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn45"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="45"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn46"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="46"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn47"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="47"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn48"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="48"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn49"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="49"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn50"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="50"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn51"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="51"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn52"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="52"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn38"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="38"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn37"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="37"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn36"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="36"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn35"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="35"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn34"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="34"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn33"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="33"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn32"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="32"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn31"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="31"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn30"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="30"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn29"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="29"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn28"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="28"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn27"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="27"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn26"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="26"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn25"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="25"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn13"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="13"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn14"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="14"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn15"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="15"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn16"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="16"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn17"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="17"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn18"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="18"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn19"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="19"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn20"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="20"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn21"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="21"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn22"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="22"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn23"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="23"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn24"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="24"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="40dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/rdroom_btn12"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="12"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn11"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="11"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn10"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="10"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn9"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="9"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn8"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="8"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn7"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="7"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn6"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="6"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="5"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="4"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="3"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="2"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:id="@+id/rdroom_btn1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/buttonstyle3"
+                        android:text="1"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:visibility="gone"
+        android:layout_below="@id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa000000"
+        android:gravity="center">
+        <ProgressBar
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+</RelativeLayout>
